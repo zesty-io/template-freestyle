@@ -1,14 +1,13 @@
- <div class="row ">
+ <div class="row">
            {{each review_cards as rc}}
-                <div class=" mt-5 col-md-4">
+                <div class="mt-5 col-md-4 d-flex align-items-stretch">
                     <div class="reviews-components p-5">
                         <iconify-icon icon="gridicons:quote" class="quote my-2"></iconify-icon>
                         <p>“{{rc.customer_review}}”</p>
                         <div class="row mt-4">
                             <div class="col-md-3">
-                                <img src="{{rc.customer_profile.getUrl()}}" alt="image" class="img-fluid">
+                                <img src="{{rc.customer_profile.getImage()}}" alt="image" class="img-fluid">
                             </div>
-                            {{rc.customer_profile.getUrl()}}
                             <div class="col-md-9">
                                 <h5>{{rc.customer_name}}</h5>
                                 <div class="d-flex">
@@ -26,3 +25,22 @@
                 {{/each}}
                 
 </div>
+<nav aria-label="Page navigation" class="d-flex justify-content-center mt-5 pt-5">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <iconify-icon icon="solar:arrow-left-linear" class="pagination-arrow"></iconify-icon>
+                        </a>
+                    </li>
+                    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <iconify-icon icon="solar:arrow-right-linear" class="pagination-arrow"></iconify-icon> </a>
+                    </li>
+                </ul>
+            </nav>

@@ -1,5 +1,5 @@
 
-  - id: "f78e-3818-34cb"
+  - id: "4506-73a1-3624"
     web:
       metaDescription: ""
       metaTitle: null
@@ -17,9 +17,9 @@
       listed: true
     data:
       navigation_label: "Services"
-      navigation_link: "873a-65b7-2448"
+      navigation_link: "8864-badf-e16a"
       order: 2
-  - id: "d4a4-4c0a-643c"
+  - id: "acb9-d50a-28ed"
     web:
       metaDescription: ""
       metaTitle: null
@@ -37,9 +37,9 @@
       listed: true
     data:
       navigation_label: "About"
-      navigation_link: "4c55-169d-9ba0"
+      navigation_link: "f3b7-c514-f01c"
       order: 3
-  - id: "f7c2-8124-9fb5"
+  - id: "eb0f-0493-b9e1"
     web:
       metaDescription: ""
       metaTitle: null
@@ -57,9 +57,9 @@
       listed: true
     data:
       navigation_label: "Projects"
-      navigation_link: "4c8a-a00c-cdf4"
+      navigation_link: "e382-3f34-1b41"
       order: 4
-  - id: "c198-814d-c8e0"
+  - id: "8b1d-0aba-75b3"
     web:
       metaDescription: ""
       metaTitle: null
@@ -77,9 +77,9 @@
       listed: true
     data:
       navigation_label: "Blog"
-      navigation_link: "202a-7767-568d"
+      navigation_link: "43db-fedd-31ef"
       order: 5
-  - id: "b021-c853-1623"
+  - id: "eea3-89d1-cbf1"
     web:
       metaDescription: ""
       metaTitle: null
@@ -97,9 +97,9 @@
       listed: true
     data:
       navigation_label: "Contact"
-      navigation_link: "89a0-c433-fc8d"
+      navigation_link: "824b-0c4a-0d7b"
       order: 6
-  - id: "9ed8-1c33-6c55"
+  - id: "9574-b8bb-d6cd"
     web:
       metaDescription: ""
       metaTitle: null
@@ -117,5 +117,5 @@
       listed: true
     data:
       navigation_label: "Home"
-      navigation_link: "3608-ff31-68ff"
+      navigation_link: "dc32-b8f6-ed2e"
       order: 1

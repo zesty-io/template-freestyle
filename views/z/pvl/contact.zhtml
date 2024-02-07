@@ -1,4 +1,91 @@
 <div className={styles.pvlRoot}>
-	<h1 class="pvlHeader">{{this.contact_page}}</h1>
-	{{include /freestyle/components/header.html}}
+	<div style="display:flex" className="{styles.pvlRow}"  class="contact-banner banner">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container pt-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="row py-5 mt-5">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="d-flex flex-wrap flex-column justify-content-center align-items-center my-5 py-5 text-white">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<h2  class="text-white fw-bold display-2 mt-5 sticky-top z-3">{{this.page_title}}</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class="contact-us-wrap py-5 mt-5">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="flex-column flex-md-row">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div class="pvlRichtext">{{this.contact_info}}</div>
+						</div>
+						<div style="flex:1" className={styles.pvlColumn}>
+							{{include /freestyle/components/contact-form.html}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class="contact-list pb-5">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className={styles.pvlRow}>
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className={styles.pvlRow}>
+								<div style="flex:1" className={styles.pvlColumn}>
+									<div style="display:flex" className="{styles.pvlRow}"  class="col-md-12 border-end">
+										<div style="flex:1" className={styles.pvlColumn}>
+											<div style="display:flex" className="{styles.pvlRow}"  class="content-box ps-3 my-4">
+												<div style="flex:1" className={styles.pvlColumn}>
+													<div class="pvlRichtext">{{this.contact_usa}}</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div style="flex:1" className={styles.pvlColumn}>
+									<div style="display:flex" className={styles.pvlRow}>
+										<div style="flex:1" className={styles.pvlColumn}>
+											<div style="display:flex" className="{styles.pvlRow}"  class="col-md-12 border-end">
+												<div style="flex:1" className={styles.pvlColumn}>
+													<div style="display:flex" className="{styles.pvlRow}"  class="content-box ps-3 my-4">
+														<div style="flex:1" className={styles.pvlColumn}>
+															<div class="pvlRichtext">{{this.contact_france}}</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div style="flex:1" className={styles.pvlColumn}>
+									<div style="display:flex" className={styles.pvlRow}>
+										<div style="flex:1" className={styles.pvlColumn}>
+											<div style="display:flex" className="{styles.pvlRow}"  class="col-md-12">
+												<div style="flex:1" className={styles.pvlColumn}>
+													<div style="display:flex" className="{styles.pvlRow}"  class="content-box ps-3 my-4">
+														<div style="flex:1" className={styles.pvlColumn}>
+															<div class="pvlRichtext">{{this.contact_office2}}</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
 </div>

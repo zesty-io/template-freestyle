@@ -1,7 +1,50 @@
 <div className={styles.pvlRoot}>
-	{{include /freestyle/components/header.html}}
-	<div style="display:flex" className="{styles.pvlRow}"  class="reviews-banner">
+	<div style="display:flex" className="{styles.pvlRow}"  class="reviews-banner banner">
 		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container pt-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="row py-5 mt-5">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="d-flex flex-wrap flex-column justify-content-center align-items-center my-5 py-5 text-white">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<h2  class="text-white fw-bold display-2 mt-5 sticky-top z-3">{{this.page_title}}</h2>
+									<div style="display:flex" className="{styles.pvlRow}"  class="breadcrumb mb-5">
+										<div style="flex:1" className={styles.pvlColumn}>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class="mb-5">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="services-sub container my-5 py-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div class="pvlRichtext">{{this.first_section}}</div>
+					{{include /freestyle/components/review-card-v2.html}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class="position-relative my-5 testimonial-banner">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container my-5 py-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="row align-items-center my-5 mx-auto">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="col-md-6 offset-md-2">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<div class="pvlRichtext">{{this.second_section}}</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

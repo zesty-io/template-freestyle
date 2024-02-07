@@ -1,0 +1,29 @@
+<div class="row">
+                
+                {{each articles as article limit 3}}
+                <div class="col-md-4">
+                    <article class="post-item pb-5">
+                        <div class="post-image">
+                            <a href="blog-single.html"><img style="width: 100%; height: 100%; object-fit: cover" src="{{article.image.getImage()}}" alt="image" class="img-fluid"></a>
+                        </div>
+                        <div class="post-content">
+                            <a href="#" class="text-decoration-none">
+                                <p class="blog-topic text-uppercase mt-3">{{article.tag}} / {{article.date_created}}</p>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <h4 class="blog-title my-3">{{article.title}}</h4>
+                            </a>
+                            <p style="
+                        max-height: 100px;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2; /* number of lines to show */
+                        line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                      ">{{article.card_description}}</p>
+                        </div>
+                    </article>
+                </div>
+                {{/each}}
+
+            </div>

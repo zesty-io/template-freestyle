@@ -1,5 +1,5 @@
 
-  - id: "ea90-58d1-3f94"
+  - id: "94f0-a0a5-e5a2"
     web:
       metaDescription: "\n✓ Quisque rhoncus\n✓ Lorem ipsum dolor\n✓ Vivamus velit mir\n✓ Elit mir ivamus\n\nBook now "
       metaTitle: "STANDARD"
@@ -20,7 +20,7 @@
       package_type: "STANDARD"
       price: "$56.95"
       recommended: 0
-  - id: "f42a-e6f7-5949"
+  - id: "3316-4488-1354"
     web:
       metaDescription: "\n✓ Quisque rhoncus\n✓ Lorem ipsum dolor\n✓ Vivamus velit mir\n✓ Velit mir\n✓ Elit mir ivamus\n\nBook now "
       metaTitle: "BASIC"
@@ -41,7 +41,7 @@
       package_type: "BASIC"
       price: "$79.50"
       recommended: 1
-  - id: "27bd-b4a9-36ff"
+  - id: "e7b9-ca39-59ae"
     web:
       metaDescription: "\n✓ Quisque rhoncus\n✓ Lorem ipsum dolor\n✓ Vivamus velit mir\n✓ Elit mir ivamus\n✓ Lorem ipsum dolor\n✓ Ipsum dolor\n\nBook now "
       metaTitle: "DELUXE"
@@ -62,7 +62,7 @@
       package_type: "DELUXE"
       price: "$103.40"
       recommended: 0
-  - id: "7e4d-8757-b2f4"
+  - id: "717b-d9f5-906a"
     web:
       metaDescription: "\n✓ Quisque rhoncus\n✓ Lorem ipsum dolor\n✓ Vivamus velit mir\n✓ It ir ivamus\n✓ Elit mir ivamus\n✓ Quisque rhoncus\n✓ lit mir iamus\n\nBook now "
       metaTitle: "ULTIMATE"

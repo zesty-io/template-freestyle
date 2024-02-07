@@ -1,10 +1,17 @@
-<div class=" mt-4 col-md-6 col-lg-3">
+<div class="row">
+    {{each multi_services as ms}}
+<div class=" mt-4 col-md-6 col-lg-3 d-flex align-items-stretch">
                     <div class="services-components text-center py-5 px-3">
-                         <iconify-icon class="services-icon my-2" icon="mdi:home-roof"></iconify-icon>
-                        <h5 class="services-heading mb-3">Roof replacement</h5>
-                        <p>Sagittis pulvinar ut dis venenatis nunc vitae aliquam vestibulum. Elit adipiscing massa diam.
+                       
+                            <iconify-icon class="services-icon my-2" icon="{{ms.card_icon_name}}"></iconify-icon>
+                        <h5 class="services-heading mb-3">{{ms.card_title}}</h5>
+                        <p>{{ms.card_description2}}
                         </p>
-                        <a href="services-single.html" class="btn btn-primary service-btn mt-3">read more</a>
+                       
+                        <a href="#" class="btn btn-primary service-btn mt-3">{{ms.card_cta_button}}</a>
+                       
 
                     </div>
 </div>
+{{/each}}
+    </div>

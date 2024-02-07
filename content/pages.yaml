@@ -1,5 +1,5 @@
 
-  - id: "6e62-705e-02fa"
+  - id: "ad8a-7dd1-ecfd"
     web:
       metaDescription: ""
       metaTitle: "Faqs"
@@ -17,9 +17,9 @@
       listed: true
     data:
       page_label: "Faqs"
-      page_link: "b194-4931-8cb5"
+      page_link: "2901-e406-da82"
       page_order: 10
-  - id: "cf55-6e38-0fd5"
+  - id: "2736-40a6-f1db"
     web:
       metaDescription: ""
       metaTitle: "Reviews"
@@ -37,9 +37,9 @@
       listed: true
     data:
       page_label: "Reviews"
-      page_link: "3be2-1779-de5f"
+      page_link: "69d8-bc9c-3b96"
       page_order: 9
-  - id: "f375-521c-3d18"
+  - id: "b4b5-4927-df5e"
     web:
       metaDescription: ""
       metaTitle: "Pricing"
@@ -57,9 +57,9 @@
       listed: true
     data:
       page_label: "Pricing"
-      page_link: "ad1d-60fd-7624"
+      page_link: "79f1-0619-9895"
       page_order: 6
-  - id: "65b4-7559-208f"
+  - id: "68eb-61be-4e33"
     web:
       metaDescription: ""
       metaTitle: "Our Team"
@@ -77,9 +77,9 @@
       listed: true
     data:
       page_label: "Our Team"
-      page_link: "4d73-a877-a2a8"
+      page_link: "b886-1118-eefe"
       page_order: 8
-  - id: "c92e-a924-5277"
+  - id: "affb-7e4b-1f3f"
     web:
       metaDescription: ""
       metaTitle: "Booking"
@@ -97,5 +97,5 @@
       listed: true
     data:
       page_label: "Booking"
-      page_link: "329d-a766-093a"
+      page_link: "c2ca-513b-7a53"
       page_order: 3

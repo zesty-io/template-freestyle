@@ -1,17 +1,11 @@
 <div className={styles.pvlRoot}>
-	<div style="display:flex" className={styles.pvlRow}>
+	<div style="display:flex" className="{styles.pvlRow}"  class="home-banner position-relative py-4 overflow-hidden banner">
 		<div style="flex:1" className={styles.pvlColumn}>
 			<div style="display:flex" className="{styles.pvlRow}"  class="container py-5 mt-5">
 				<div style="flex:1" className={styles.pvlColumn}>
-					<div style="display:flex" className="{styles.pvlRow}"  class="row align-items-center py-5 mt-5">
+					<div style="display:flex" className="{styles.pvlRow}"  class="row align-items-center py-5 mt-5 sticky-top z-3">
 						<div style="flex:6" className={styles.pvlColumn}>
-							<div style="display:flex" className="{styles.pvlRow}"  class="mb-5 mb-md-0">
-								<div style="flex:1" className={styles.pvlColumn}>
-									<h6  class="text-white">{{this.first_section_subheader}}</h6>
-									<h2  class="text-white fw-bold display-2">{{this.first_section_header}}</h2>
-									<div class="pvlRichtext">{{this.first_section_body}}</div>
-								</div>
-							</div>
+							<div class="pvlRichtext">{{this.first_section}}</div>
 						</div>
 						<div style="flex:5" className={styles.pvlColumn}>
 							<div style="display:flex" className="{styles.pvlRow}"  class="offset-md-1">
@@ -28,25 +22,100 @@
 	{{include /freestyle/components/our-trusted-partners.html}}
 	<div style="display:flex" className={styles.pvlRow}>
 		<div style="flex:1" className={styles.pvlColumn}>
-			<div style="display:flex" className="{styles.pvlRow}"  class="position-relative py-5 testimonial-banner">
+			<div className="{styles.pvlRow}" style="display:flex;"  class="position-relative py-5 testimonial-banner">
 				<div style="flex:1" className={styles.pvlColumn}>
-					<div style="display:flex" className="{styles.pvlRow}"  class="py-5 container mx-auto">
+					<div className="{styles.pvlRow}" style="display:flex;"  class="py-5 container mx-auto overflow-hidden">
 						<div style="flex:1" className={styles.pvlColumn}>
-							<h6  class="text-white">{{this.second_section_subheader}}</h6>
-							<h2  class="text-white fw-bold display-4 mb-4">{{this.second_section_header}}</h2>
+							<div class="pvlRichtext">{{this.second_section}}</div>
+							{{include /freestyle/components/review-card-v1.html}}
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div style="display:flex" className="{styles.pvlRow}"  class="my-5 pt-5">
+	<div style="display:flex" className={styles.pvlRow}>
 		<div style="flex:1" className={styles.pvlColumn}>
 			<div style="display:flex" className="{styles.pvlRow}"  class="container pt-5">
 				<div style="flex:1" className={styles.pvlColumn}>
-					<h6 class="pvlHeader" >{{this.third_section_subheader}}</h6>
-					<h2  class="fw-bold display-4 mb-4">{{this.third_section_header}}</h2>
+					<div class="pvlRichtext">
+<h6 class="">Who are we</h6>
+<h2 class=" fw-bold display-4 mb-3">Let's do business together!</h2>
+<p class=""><strong>Global Reach: </strong>With a presence in major ports and cities worldwide, Acme Co ensures your shipments can reach any corner of the globe.<br><strong>Reliability:</strong> We understand the importance of timely deliveries. Our commitment to reliability means you can trust us to meet your deadlines.<br><strong>Sustainability:</strong> Acme Co is dedicated to reducing our environmental footprint. We continuously invest in eco-friendly practices and technologies to make shipping more sustainable.<br><strong>Technology-Driven:</strong> Our advanced tracking and management systems provide real-time visibility into your shipments, ensuring you're always in the know.<br><strong>Customer-Centric:</strong> We put our customers first. Our responsive customer support team is ready to assist you 24/7, ensuring a smooth experience every step of the way</p>
+</div>
+					<div class="pvlRichtext">
+<h6 class="text-center text-white mt-5"><span style="font-size: 18pt;">Our works</span></h6>
+<h2 class="text-center text-white fw-bold display-4 mb-5"><span style="font-size: 18pt;">Our latest projects</span></h2>
+</div>
+					<div class="pvlRichtext">{{this.third_section}}</div>
 					{{include /freestyle/components/services-card.html}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div style="display:flex" className="{styles.pvlRow}"  class="">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container py-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="row align-items-center py-5 flex-column flex-md-row">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="col-md-12 ps-md-5">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<img src="{{this.about_us_image.getImage()}}" alt="@" width="100%" />
+								</div>
+							</div>
+						</div>
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="col-md-12 px-4 py-5">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<div class="pvlRichtext">{{this.fourth_section}}</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class="">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container-fluid my-5 pt-5 p-0 bg-accent">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div class="pvlRichtext">{{this.fifth_section}}</div>
+					{{include /freestyle/components/latest-projects.html}}
+				</div>
+			</div>
+		</div>
+	</div>
+	{{include /freestyle/components/actions.html}}
+	<div style="display:flex" className={styles.pvlRow}>
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container my-5 pb-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div class="pvlRichtext">{{this.faq_section}}</div>
+					{{include /freestyle/components/faqs-accordion.html}}
+				</div>
+			</div>
+		</div>
+	</div>
+	{{include /freestyle/components/latest-blog.html}}
+	<div style="display:flex" className="{styles.pvlRow}"  class="testimonial-banner position-relative my-5">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container my-5 py-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="row align-items-center my-5">
+						<div style="flex:6" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="row offset-md-2">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<div class="pvlRichtext">{{this.seventh_section}}</div>
+								</div>
+							</div>
+						</div>
+						<div style="flex:5" className={styles.pvlColumn}>
+							{{include /freestyle/components/get-in-touch-btn.html}}
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

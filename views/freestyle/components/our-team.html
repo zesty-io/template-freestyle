@@ -1,0 +1,43 @@
+<div class="row my-3 align-items-center ">
+    {{each team as t sort by t.order}}
+    <div class="col-md-4 mt-5 ">
+            <img src="{{t.profile_image.getImage()}}" alt="image" class="img-fluid">
+            <h5 class="element-title text-uppercase mt-3 fw-bold">{{t.full_name}}</h5>
+            <h6 class="heading-color">{{t.position}}</h6>
+            <p class="pe-5">{{t.description}}
+            </p>
+            <div class=" social-links">
+              <ul class="list-unstyled d-flex gap-3 mt3 ">
+                <li>
+                  <a href="#" class="text-secondary me-2 p-0">
+                    <iconify-icon icon="ri:facebook-fill" class="social-icon "></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-secondary me-2 p-0">
+                    <iconify-icon icon="ri:instagram-line" class="social-icon "></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-secondary me-2 p-0">
+                    <iconify-icon icon="ri:twitter-fill" class="social-icon "></iconify-icon>
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-secondary me-2 p-0">
+                    <iconify-icon icon="ri:youtube-fill" class="social-icon "></iconify-icon>
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-secondary me-2 p-0">
+                    <iconify-icon icon="ri:linkedin-fill" class="social-icon "></iconify-icon>
+
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    {{/each}}         
+</div>

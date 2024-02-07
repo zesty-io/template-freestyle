@@ -1,0 +1,28 @@
+ <div class="row py-4">
+    {{each roofing_packages as rp}} 
+    <div class="col-lg-3 pb-4">
+        {{ if {rp.recommended} }}
+<div class="py-5 plan-post recommend-price text-center">
+
+                        <h6 class="text-white mb-3 mb-3">{{rp.package_type}}</h6>
+
+                        <h2 class="text-white mb-3 heading-color display-5 fw-bold mb-5">{{rp.price}}</h2>
+                        {{rp.description}}
+                        <a href="{{this.getUrl()}}" class="btn btn-primary text-black mt-3 px-4 py-3 mx-2"
+                            style="background: white;">Book now </a>
+                    </div>
+        {{else}}
+        <div class="py-5 plan-post text-center">
+
+                        <h6 class="mb-3">{{rp.package_type}}</h6>
+
+                        <h2 class="heading-color display-5 fw-bold mb-5">{{rp.price}}</h2>
+                        {{rp.description}}
+                           <a href="{{this.getUrl()}}" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now </a>
+                    </div>
+        {{end-if}}
+                    
+                </div>
+    {{/each}}
+
+</div>

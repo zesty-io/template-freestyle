@@ -1,0 +1,20 @@
+<div class="mb-4">
+                <p class="text-center">
+                    <button class="filter-button gallery-btn px-3 me-2 mb-3 active" data-filter="*">All</button>
+                    {{each project_tags as pt limit 4}}
+                   <button class="filter-button gallery-btn px-3 me-2 mb-3" data-filter=".roof">{{pt.title}}</button>
+                    {{/each}}
+                </p>
+</div>
+<div class="isotope-container">
+                {{each multi_projects as project}}
+               <div class="col-md-3 item roof ">
+                    <a href="#"><img src="{{project.image.getImage()}}" alt="image" class="img-fluid"></a>
+                    <div class="description text-center px-3 py-5">
+                        <h6 class="project-date my-3 pt-3 fs-6">{{project.date_created}}</h6>
+                        <h3 class="project-heading mb-3">{{project.project_title}}</h3>
+                        <a href="#" class="btn btn-primary mt-3">View project</a>
+                    </div>
+                </div>
+                {{/each}}
+</div>

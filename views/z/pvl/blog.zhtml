@@ -1,10 +1,29 @@
 <div className={styles.pvlRoot}>
-	<div style="display:flex" className="{styles.pvlRow}"  class="blog-banner">
+	<div style="display:flex" className="{styles.pvlRow}"  class="blog-banner banner">
 		<div style="flex:1" className={styles.pvlColumn}>
 			<div style="display:flex" className="{styles.pvlRow}"  class="container pt-5">
 				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="row py-5 mt-5">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="d-flex flex-wrap flex-column justify-content-center align-items-center my-5 py-5 text-white">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<h2  class="text-white fw-bold display-2 mt-5 z-3 sticky-top">{{this.page_title}}</h2>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class="post-wrap my-5 py-5">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container">
+				<div style="flex:1" className={styles.pvlColumn}>
+					{{include /freestyle/components/articles.html}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
 </div>

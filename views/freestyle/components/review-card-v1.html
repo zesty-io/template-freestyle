@@ -1,0 +1,25 @@
+
+<div class="swiper testimonial-swiper mb-4">
+    <div class="swiper-wrapper overflow-hidden d-flex align-items-stretch">
+        {{each review_cards as rc limit 4}}
+        <div style="max-width: 350px" class="swiper-slide testimonial-content p-5">
+                        <p>“{{rc.customer_review}}”</p>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="{{rc.customer_profile.getImage()}}" alt="image" class="img-fluid">
+                            </div>
+                            <div class="col-md-9">
+                                <h5>{{rc.customer_name}}</h5>
+                                <div class="d-flex">
+                                    <iconify-icon icon="ion:star" class="rate pe-1"></iconify-icon>
+                                    <iconify-icon icon="ion:star" class="rate pe-1"></iconify-icon>
+                                    <iconify-icon icon="ion:star" class="rate pe-1"></iconify-icon>
+                                    <iconify-icon icon="ion:star" class="rate pe-1"></iconify-icon>
+                                    <iconify-icon icon="ion:star" class="rate pe-1"></iconify-icon>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+        {{/each}}
+    </div>
+</div>

@@ -1,5 +1,5 @@
 
-  - id: "8cf5-c438-e690"
+  - id: "9380-eecb-6e4b"
     web:
       metaDescription: ""
       metaTitle: "Contact us"
@@ -17,7 +17,7 @@
       listed: true
     data:
       label: "Contact us"
-  - id: "69f6-0f50-3c8e"
+  - id: "6194-6a5f-2ba0"
     web:
       metaDescription: ""
       metaTitle: "Privacy Policy"
@@ -35,7 +35,7 @@
       listed: true
     data:
       label: "Privacy Policy"
-  - id: "fde0-d5fa-ec1d"
+  - id: "5731-d98c-07c5"
     web:
       metaDescription: ""
       metaTitle: "Our gallery"
@@ -53,7 +53,7 @@
       listed: true
     data:
       label: "Our gallery"
-  - id: "6ee4-8216-9d47"
+  - id: "d43f-c987-d822"
     web:
       metaDescription: ""
       metaTitle: "About us"
@@ -71,7 +71,7 @@
       listed: true
     data:
       label: "About us"
-  - id: "0456-2d41-cbee"
+  - id: "7be5-6cda-103b"
     web:
       metaDescription: ""
       metaTitle: "Our locations"

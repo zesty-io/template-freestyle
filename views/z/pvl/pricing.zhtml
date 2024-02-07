@@ -1,6 +1,43 @@
 <div className={styles.pvlRoot}>
-	<div style="display:flex" className="{styles.pvlRow}"  class="pricing-banner">
+	<div style="display:flex" className="{styles.pvlRow}"  class="pricing-banner banner">
 		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container pt-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="row py-5 mt-5">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="d-flex flex-wrap flex-column justify-content-center align-items-center my-5 py-5 text-white">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<h2  class="text-white fw-bold display-2 mt-5 sticky-top z-3">{{this.page_title}}</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class="my-5">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container py-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div class="pvlRichtext">{{this.first_section}}</div>
+					{{include /freestyle/components/roofing-packages.html}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class="related-post post-wrap py-4">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="d-flex align-items-center justify-content-between section-header">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<h2  class="section-title text-uppercase mb-5 fw-bold">{{this.related_post_header}}</h2>
+							{{include /freestyle/components/latest-blog-v2.html}}
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
