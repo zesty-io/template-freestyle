@@ -1,0 +1,22 @@
+
+  - id: "329d-a766-093a"
+    web:
+      metaDescription: ""
+      metaTitle: "Booking"
+      metaLinkText: "Booking"
+      metaKeywords: null
+      pathPart: "booking"
+      path: "/booking/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 108
+      listed: true
+    data:
+      first_section: "<h6 class=\"\">Book now</h6>\n<h2 class=\" fw-bold display-4 mb-5\">Book Your Appointment</h2>"
+      page_title: "Booking"
+      second_section: "<h6 class=\"\">Pricing plans</h6>\n<h2 class=\" fw-bold display-4 mb-5\">Roofing packages</h2>"
+      third_section: "<div class=\"col-md-6 offset-md-2\">\n<h6 class=\"text-white\">Get started now</h6>\n<h2 class=\"text-white fw-bold display-4\">EXPLORE OUR GLOBAL SHIPPING SOLUTIONS</h2>\n</div>"

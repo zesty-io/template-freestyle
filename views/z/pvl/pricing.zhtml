@@ -1,0 +1,6 @@
+<div className={styles.pvlRoot}>
+	<div style="display:flex" className="{styles.pvlRow}"  class="pricing-banner">
+		<div style="flex:1" className={styles.pvlColumn}>
+		</div>
+	</div>
+</div>

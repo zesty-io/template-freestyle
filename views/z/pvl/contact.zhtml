@@ -1,0 +1,4 @@
+<div className={styles.pvlRoot}>
+	<h1 class="pvlHeader">{{this.contact_page}}</h1>
+	{{include /freestyle/components/header.html}}
+</div>

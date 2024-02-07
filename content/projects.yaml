@@ -1,0 +1,21 @@
+
+  - id: "4c8a-a00c-cdf4"
+    web:
+      metaDescription: ""
+      metaTitle: "Projects"
+      metaLinkText: "Projects"
+      metaKeywords: null
+      pathPart: "projects"
+      path: "/projects/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 137
+      listed: true
+    data:
+      first_section: "<h6 class=\"text-center mt-5\">Our works</h6>\n<h2 class=\"text-center fw-bold display-4 mb-5\">Our latest projects</h2>"
+      page_title: "PROJECTS"
+      second_section: "<h6 class=\"text-white\">Get started now</h6>\n<h2 class=\"text-white fw-bold display-4\">EXPLORE OUR GLOBAL SHIPPING SOLUTIONS</h2>"

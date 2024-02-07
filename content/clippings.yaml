@@ -1,0 +1,30 @@
+
+  - id: "cf08-139e-0a96"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+    data:
+      company_description: "At Acme Global Shipping Solutions, we're more than just a logistics company; we are your partners in connecting the world."
+      copyrights: "© 2023 Acme - All rights reserved"
+      header_contact: "(555) 555-5555"
+      logo: "https://x0cgdmw9.media.zestyio.com/acme-co-logo_720.png"
+      partner_1: "https://x0cgdmw9.media.zestyio.com/logo2.png"
+      partner_2: "https://x0cgdmw9.media.zestyio.com/logo1.png"
+      partner_3: "https://x0cgdmw9.media.zestyio.com/logo6.png"
+      partner_4: "https://x0cgdmw9.media.zestyio.com/logo4.png"
+      partner_5: "https://x0cgdmw9.media.zestyio.com/logo3.png"
+      partner_6: "https://x0cgdmw9.media.zestyio.com/logo5.png"
+      site_name: "Edit Site Name in Content Clippings"
+      trusted_partners_header: "Our Trusted Partners"

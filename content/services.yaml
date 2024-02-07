@@ -1,0 +1,21 @@
+
+  - id: "873a-65b7-2448"
+    web:
+      metaDescription: ""
+      metaTitle: "Services"
+      metaLinkText: "Services"
+      metaKeywords: null
+      pathPart: "services"
+      path: "/services/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 135
+      listed: true
+    data:
+      first_section: "<h6 class=\"\">Our Services</h6>\n<h2 class=\" fw-bold display-4 mb-4\">What we provide</h2>"
+      page_title: "SERVICES"
+      second_section: "<h6 class=\"text-white\">Homeowners reviews</h6>\n<h2 class=\"text-white fw-bold display-4 mb-4\">Our happy customers</h2>"

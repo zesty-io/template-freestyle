@@ -1,0 +1,85 @@
+
+  - id: "9203-1130-f171"
+    web:
+      metaDescription: ""
+      metaTitle: "ROOF REPLACEMENT"
+      metaLinkText: "ROOF REPLACEMENT"
+      metaKeywords: null
+      pathPart: "roof-replacement"
+      path: "/services/roof-replacement/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/services/"
+    meta:
+      sort: 161
+      listed: true
+    data:
+      card_cta_button: "READ MORE"
+      card_description2: "<p>In the era of online shopping, we offer tailored e-commerce fulfillment solutions to meet the demands of your business. From inventory management to order processing and shipping, we've got you covered</p>"
+      card_icon_name: "mdi:home-roof"
+      card_title: "E-commerce Fulfillment"
+  - id: "4dc7-1a5e-229d"
+    web:
+      metaDescription: ""
+      metaTitle: "ROOF REPAIR"
+      metaLinkText: "ROOF REPAIR"
+      metaKeywords: null
+      pathPart: "roof-repair"
+      path: "/services/roof-repair/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/services/"
+    meta:
+      sort: 163
+      listed: true
+    data:
+      card_cta_button: "READ MORE"
+      card_description2: "<p>Acme Co operates state-of-the-art warehouses strategically located around the world. Our warehousing and distribution services help streamline your supply chain, reducing costs and improving efficiency.</p>"
+      card_icon_name: "mdi:hammer"
+      card_title: "Warehousing and Distribution"
+  - id: "4a58-7c89-31b0"
+    web:
+      metaDescription: ""
+      metaTitle: "ROOF SOLAR SYSTEM"
+      metaLinkText: "ROOF SOLAR SYSTEM"
+      metaKeywords: null
+      pathPart: "roof-solar-system"
+      path: "/services/roof-solar-system/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/services/"
+    meta:
+      sort: 164
+      listed: true
+    data:
+      card_cta_button: "READ MORE"
+      card_description2: "<p>Navigating the complexities of customs regulations can be daunting. Our experienced team ensures your shipments clear customs smoothly, minimizing delays and avoiding unnecessary hassles.</p>"
+      card_icon_name: "mdi:white-balance-sunny"
+      card_title: "Customs Clearance"
+  - id: "75f7-0c8d-f1df"
+    web:
+      metaDescription: ""
+      metaTitle: "DAMAGE REPAIR"
+      metaLinkText: "DAMAGE REPAIR"
+      metaKeywords: null
+      pathPart: "damage-repair"
+      path: "/services/damage-repair/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/services/"
+    meta:
+      sort: 162
+      listed: true
+    data:
+      card_cta_button: "READ MORE"
+      card_description2: "<p>Acme Co offers seamless international shipping services, ensuring your goods reach their destination safely and on time. Whether it's by sea, air, or land, we have the expertise to handle it all.</p>"
+      card_icon_name: "mdi:weather-lightning"
+      card_title: "International Shipping"

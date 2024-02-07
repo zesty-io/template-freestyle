@@ -1,0 +1,21 @@
+
+  - id: "3be2-1779-de5f"
+    web:
+      metaDescription: ""
+      metaTitle: "Reviews"
+      metaLinkText: "Reviews"
+      metaKeywords: null
+      pathPart: "reviews"
+      path: "/reviews/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 148
+      listed: true
+    data:
+      first_section: "<h6 class=\"text-center mt-3\">What Customers Says</h6>\n<h2 class=\"text-center fw-bold display-4 mb-5\">Our Customers reviews</h2>"
+      page_title: "CUSTOMER'S REVIEW"
+      second_section: "<h6 class=\"text-white\">Get started now</h6>\n<h2 class=\"text-white fw-bold display-4\">Explore Our Global Shipping Solutions</h2>"

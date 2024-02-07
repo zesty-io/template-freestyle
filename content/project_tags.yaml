@@ -1,0 +1,73 @@
+
+  - id: "d96e-e5b6-bafc"
+    web:
+      metaDescription: ""
+      metaTitle: "Autonomous Ships"
+      metaLinkText: "Autonomous Ships"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 209
+      listed: true
+    data:
+      title: "Autonomous Ships"
+  - id: "6fa7-bb41-c03d"
+    web:
+      metaDescription: ""
+      metaTitle: "Ship Performance Monitoring"
+      metaLinkText: "Ship Performance Monitoring"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 208
+      listed: true
+    data:
+      title: "Ship Performance Monitoring"
+  - id: "58b1-96c4-46eb"
+    web:
+      metaDescription: ""
+      metaTitle: "Port Efficiency Enhancement"
+      metaLinkText: "Port Efficiency Enhancement"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 207
+      listed: true
+    data:
+      title: "Port Efficiency Enhancement"
+  - id: "a9eb-4692-355f"
+    web:
+      metaDescription: ""
+      metaTitle: "Digital Freight Marketplace"
+      metaLinkText: "Digital Freight Marketplace"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 206
+      listed: true
+    data:
+      title: "Digital Freight Marketplace"

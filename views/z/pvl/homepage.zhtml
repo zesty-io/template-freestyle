@@ -1,0 +1,54 @@
+<div className={styles.pvlRoot}>
+	<div style="display:flex" className={styles.pvlRow}>
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container py-5 mt-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="row align-items-center py-5 mt-5">
+						<div style="flex:6" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="mb-5 mb-md-0">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<h6  class="text-white">{{this.first_section_subheader}}</h6>
+									<h2  class="text-white fw-bold display-2">{{this.first_section_header}}</h2>
+									<div class="pvlRichtext">{{this.first_section_body}}</div>
+								</div>
+							</div>
+						</div>
+						<div style="flex:5" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="offset-md-1">
+								<div style="flex:1" className={styles.pvlColumn}>
+									{{include /freestyle/components/get-started-form.html}}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{{include /freestyle/components/our-trusted-partners.html}}
+	<div style="display:flex" className={styles.pvlRow}>
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="position-relative py-5 testimonial-banner">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="py-5 container mx-auto">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<h6  class="text-white">{{this.second_section_subheader}}</h6>
+							<h2  class="text-white fw-bold display-4 mb-4">{{this.second_section_header}}</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class="my-5 pt-5">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container pt-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<h6 class="pvlHeader" >{{this.third_section_subheader}}</h6>
+					<h2  class="fw-bold display-4 mb-4">{{this.third_section_header}}</h2>
+					{{include /freestyle/components/services-card.html}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,85 @@
+
+  - id: "c292-5484-39ae"
+    web:
+      metaDescription: "Air freight involves shipping goods by air, which is faster but typically more expensive. Sea freight, on the other hand, uses ships to transport cargo, which i"
+      metaTitle: "What is the difference between air freight and sea freight in global shipping?"
+      metaLinkText: "What is the difference between air freight and sea freight in global shipping?"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 217
+      listed: true
+    data:
+      answer: "Air freight involves shipping goods by air, which is faster but typically more expensive. Sea freight, on the other hand, uses ships to transport cargo, which is slower but often more cost-effective for larger shipments."
+      collapse_heading: "panelsStayOpen-headingFour"
+      collapse_id: "panelsStayOpen-collapseFour"
+      question: "What is the difference between air freight and sea freight in global shipping?"
+  - id: "dfc1-2228-6232"
+    web:
+      metaDescription: "Yes, there are restrictions on shipping certain goods, such as hazardous materials, controlled substances, and items subject to trade embargoes. It's essential "
+      metaTitle: "Are there any restrictions on the types of goods that can be shipped globally?"
+      metaLinkText: "Are there any restrictions on the types of goods that can be shipped globally?"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 218
+      listed: true
+    data:
+      answer: "Yes, there are restrictions on shipping certain goods, such as hazardous materials, controlled substances, and items subject to trade embargoes. It's essential to be aware of and comply with international regulations when shipping goods globally."
+      collapse_heading: "panelsStayOpen-headingThree"
+      collapse_id: "panelsStayOpen-collapseThree"
+      question: "Are there any restrictions on the types of goods that can be shipped globally?"
+  - id: "5013-c38c-4686"
+    web:
+      metaDescription: "Incoterms are standardized international trade terms that define the responsibilities of buyers and sellers in global transactions. They specify who bears the c"
+      metaTitle: "What is an Incoterm, and why is it important in global shipping?"
+      metaLinkText: "What is an Incoterm, and why is it important in global shipping?"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 219
+      listed: true
+    data:
+      answer: "Incoterms are standardized international trade terms that define the responsibilities of buyers and sellers in global transactions. They specify who bears the costs and risks at different stages of shipping and are crucial for avoiding misunderstandings and disputes."
+      collapse_heading: "panelsStayOpen-headingTwo"
+      collapse_id: "panelsStayOpen-collapseTwo"
+      question: "What is an Incoterm, and why is it important in global shipping?"
+  - id: "d936-17cb-a162"
+    web:
+      metaDescription: "Most shipping companies provide online tracking services that allow you to monitor the status and location of your shipment in real-time. You can use a tracking"
+      metaTitle: "How can I track the status of my global shipment?"
+      metaLinkText: "How can I track the status of my global shipment?"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 220
+      listed: true
+    data:
+      answer: "Most shipping companies provide online tracking services that allow you to monitor the status and location of your shipment in real-time. You can use a tracking number provided when your goods are shipped to access this information."
+      collapse_heading: "panelsStayOpen-headingOne"
+      collapse_id: "panelsStayOpen-collapseOne"
+      question: "How can I track the status of my global shipment?"

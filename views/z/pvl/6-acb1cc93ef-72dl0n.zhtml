@@ -1,0 +1,10 @@
+<div className={styles.pvlRoot}>
+	<div style="display:flex" className={styles.pvlRow}>
+		<div style="flex:1" className={styles.pvlColumn}>
+			<h1 class="pvlHeader">{{this.header}}</h1>
+		</div>
+		<div style="flex:1" className={styles.pvlColumn}>
+			<h1 class="pvlHeader">{{this.subheader}}</h1>
+		</div>
+	</div>
+</div>

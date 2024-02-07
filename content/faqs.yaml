@@ -1,0 +1,21 @@
+
+  - id: "b194-4931-8cb5"
+    web:
+      metaDescription: ""
+      metaTitle: "Faqs"
+      metaLinkText: "Faqs"
+      metaKeywords: null
+      pathPart: "faqs"
+      path: "/faqs/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 141
+      listed: true
+    data:
+      first_section: "<h3 class=\"section-title text-uppercase\">Frequently asked questions</h3>\n<p>Our Global Shipping FAQ section is designed to provide you with answers to common queries about international shipping, logistics, and supply chain management. Whether you're a business owner, a shipping professional, or a curious individual, these FAQs aim to clarify the intricacies of global shipping, trade, and transportation.</p>"
+      page_title: "FAQS"
+      second_section: "<h3 class=\"section-title mb-3\">Ask us anything</h3>\n<p>Call Us +123 987 456 or just drop us your message at <a style=\"text-decoration: none;\" href=\"mailto:contact@yourcompany.com\">contact@yourcompany.com</a>. You can directly message us.</p>"

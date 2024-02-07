@@ -1,0 +1,7 @@
+<div className={styles.pvlRoot}>
+	{{include /freestyle/components/header.html}}
+	<div style="display:flex" className="{styles.pvlRow}"  class="reviews-banner">
+		<div style="flex:1" className={styles.pvlColumn}>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,19 @@
+<div class="accordion col-md-8 offset-md-2" id="accordionPanelsStayOpenExample">
+
+{{each faqs_accordion as faq}}
+<div class="accordion-item mt-3">
+                    <h5 class="accordion-header border-0" id="{{faq.collapse_heading}}">
+                        <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#{{faq.collapse_id}}" aria-expanded="true"
+                            aria-controls="{{faq.collapse_id}}">
+                            {{faq.question}}
+                        </button>
+                    </h5>
+                    <div id="{{faq.collapse_id}}" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p> {{faq.answer}}</p>
+                        </div>
+                    </div>
+                </div>
+{{/each}}          
+</div>

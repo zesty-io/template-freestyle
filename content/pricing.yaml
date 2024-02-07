@@ -1,0 +1,22 @@
+
+  - id: "ad1d-60fd-7624"
+    web:
+      metaDescription: ""
+      metaTitle: "Pricing"
+      metaLinkText: "Pricing"
+      metaKeywords: null
+      pathPart: "pricing"
+      path: "/pricing/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 112
+      listed: true
+    data:
+      first_section: "<h6 class=\"\">Pricing plans</h6>\n<h2 class=\" fw-bold display-4 mb-5\">Shipping packages</h2>"
+      page_title: "PRICING PLANS"
+      related_post_header: "RELATED POSTS"
+      third_section: "<h6 class=\"text-white\">Get started now</h6>\n<h2 class=\"text-white fw-bold display-4\">Get your roofing done</h2>"

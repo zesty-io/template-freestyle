@@ -1,0 +1,76 @@
+<div class="row">
+          <main class="post-list post-card-small">
+            <div class="row">
+              {{each articles as article}}
+              <div class="col-md-4">
+                <article class="post-item pb-5">
+                  <div class="post-image">
+                    <a href="blog-single.html"
+                      ><img
+                      style="width: 100%; height: 100%; object-fit: cover"
+                        alt="image"
+                        src="{{article.image.getImage()}}"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="post-content">
+                    <a href="#" class="text-decoration-none">
+                      <p class="blog-topic text-uppercase mt-3">
+                        {{article.tag}} / {{article.date_created}}
+                      </p>
+                    </a>
+                    <a href="blog-single.html" class="text-decoration-none">
+                      <h4 class="blog-title my-3">
+                       {{article.title}}
+                      </h4>
+                    </a>
+                    <p
+                      style="
+                        max-height: 100px;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2; /* number of lines to show */
+                        line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                      "
+                    >
+                       {{article.card_description}}
+                    </p>
+                  </div>
+                </article>
+              </div>
+              {{/each}}
+            </div>
+
+            <nav
+              aria-label="Page navigation"
+              class="d-flex justify-content-center mt-5"
+            >
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <iconify-icon
+                      icon="solar:arrow-left-linear"
+                      class="pagination-arrow"
+                    ></iconify-icon>
+                  </a>
+                </li>
+                <li class="page-item active" aria-current="page">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <iconify-icon
+                      icon="solar:arrow-right-linear"
+                      class="pagination-arrow"
+                    ></iconify-icon>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </main>
+        </div>

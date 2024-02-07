@@ -1,0 +1,20 @@
+
+  - id: "9276-726b-60e8"
+    web:
+      metaDescription: ""
+      metaTitle: "GET IN TOUCH"
+      metaLinkText: "GET IN TOUCH"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 228
+      listed: true
+    data:
+      button_label: "GET IN TOUCH"
+      link: "89a0-c433-fc8d"

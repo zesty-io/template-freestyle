@@ -1,0 +1,15 @@
+<div className={styles.pvlRoot}>
+	<h1 class="modal-title"  style="font-style:italic;" >{{this.title}}</h1>
+	<div style="display:flex" className={styles.pvlRow}>
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex"  class="row card-title">
+				<div style="flex:2" className={styles.pvlColumn}>
+					<img src="{{this.image.getImage()}}" alt="@" width="100%" />
+				</div>
+				<div style="flex:4" className={styles.pvlColumn}>
+					<div class="pvlTextarea">{{this.card_description}}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

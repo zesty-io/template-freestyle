@@ -1,0 +1,1341 @@
+
+  - description: null
+    label: "Globals"
+    name: "clippings"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/clippings.yaml"
+    fields:
+      - name: "site_name"
+        label: "Site Name"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "logo"
+        label: "Site Logo"
+        description: null
+        datatype: "images"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          options: {}
+      - name: "header_contact"
+        label: "Header contact"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "company_description"
+        label: "Company description"
+        description: ""
+        datatype: "textarea"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "copyrights"
+        label: "Copyrights"
+        description: ""
+        datatype: "text"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "trusted_partners_header"
+        label: "Trusted partners header"
+        description: ""
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "partner_1"
+        label: "Partner 1"
+        description: ""
+        datatype: "images"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "partner_2"
+        label: "Partner 2"
+        description: ""
+        datatype: "images"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "partner_3"
+        label: "Partner 3"
+        description: ""
+        datatype: "images"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "partner_4"
+        label: "Partner 4"
+        description: ""
+        datatype: "images"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "partner_5"
+        label: "Partner 5"
+        description: ""
+        datatype: "images"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "partner_6"
+        label: "Partner 6"
+        description: ""
+        datatype: "images"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+  - description: null
+    label: "Homepage"
+    name: "homepage"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/homepage.tpl"
+    content: "/content/homepage.yaml"
+    fields:
+      - name: "pattern_overlay_1"
+        label: "Pattern overlay 1"
+        description: ""
+        datatype: "images"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "pattern_overlay_2"
+        label: "Pattern overlay 2"
+        description: ""
+        datatype: "images"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "first_section"
+        label: "First section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "second_section"
+        label: "Second section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 12
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "third_section"
+        label: "Third section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 13
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "fourth_section"
+        label: "Fourth section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 14
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "about_us_image"
+        label: "About us image"
+        description: ""
+        datatype: "images"
+        sort: 15
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "fifth_section"
+        label: "Fifth section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 16
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "faq_section"
+        label: "Faq section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 17
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "seventh_section"
+        label: "Seventh section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 18
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "get_in_touch_cta"
+        label: "Get in touch cta"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 19
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "home_breadcrumb"
+        label: "Home breadcrumb"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 20
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "About"
+    name: "about"
+    sort: 102
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/about.tpl"
+    content: "/content/about.yaml"
+    fields:
+      - name: "page_title"
+        label: "Page title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "section_image_1"
+        label: "Section image 1"
+        description: ""
+        datatype: "images"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "section_image_2"
+        label: "Section image 2"
+        description: ""
+        datatype: "images"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "first_section_header"
+        label: "First section header"
+        description: ""
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "first_section_body"
+        label: "First section body"
+        description: ""
+        datatype: "textarea"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "second_section_header"
+        label: "Second section header"
+        description: ""
+        datatype: "text"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "second_section_body"
+        label: "Second section body"
+        description: ""
+        datatype: "textarea"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "third_section_subheader"
+        label: "Third section subheader"
+        description: ""
+        datatype: "text"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "third_section_header"
+        label: "Third section header"
+        description: ""
+        datatype: "text"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "third_section_cta"
+        label: "Third section cta"
+        description: ""
+        datatype: "text"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Blog"
+    name: "blog"
+    sort: 104
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/blog.tpl"
+    content: "/content/blog.yaml"
+    fields:
+      - name: "page_title"
+        label: "Page title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Booking"
+    name: "booking"
+    sort: 107
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/booking.tpl"
+    content: "/content/booking.yaml"
+    fields:
+      - name: "page_title"
+        label: "Page title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "first_section"
+        label: "First section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "second_section"
+        label: "Second section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "third_section"
+        label: "Third section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Pricing"
+    name: "pricing"
+    sort: 111
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/pricing.tpl"
+    content: "/content/pricing.yaml"
+    fields:
+      - name: "page_title"
+        label: "Page title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "first_section"
+        label: "First section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "related_post_header"
+        label: "Related post header"
+        description: ""
+        datatype: "text"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "third_section"
+        label: "Third section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Contact"
+    name: "contact"
+    sort: 113
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/contact.tpl"
+    content: "/content/contact.yaml"
+    fields:
+      - name: "page_title"
+        label: "Page title"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "contact_info"
+        label: "Contact info"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "contact_usa"
+        label: "Contact usa"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "contact_france"
+        label: "Contact france"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "contact_office2"
+        label: "Contact office"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Headers"
+    name: "headers"
+    sort: 123
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/headers.yaml"
+    fields:
+      - name: "navigation_link"
+        label: "Navigation link"
+        description: ""
+        datatype: "internal_link"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "navigation_label"
+        label: "Navigation label"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "order"
+        label: "Order"
+        description: ""
+        datatype: "sort"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Pages"
+    name: "pages"
+    sort: 130
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/pages.yaml"
+    fields:
+      - name: "page_label"
+        label: "Page label"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "page_link"
+        label: "Page link"
+        description: ""
+        datatype: "internal_link"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "page_order"
+        label: "Page order"
+        description: ""
+        datatype: "sort"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Services"
+    name: "services"
+    sort: 134
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/services.tpl"
+    content: "/content/services.yaml"
+    fields:
+      - name: "page_title"
+        label: "Page Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "first_section"
+        label: "First section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "second_section"
+        label: "Second section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Projects"
+    name: "projects"
+    sort: 136
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/projects.tpl"
+    content: "/content/projects.yaml"
+    fields:
+      - name: "page_title"
+        label: "Page title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "first_section"
+        label: "First section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "second_section"
+        label: "Second section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Our Team"
+    name: "our_team"
+    sort: 138
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/our_team.tpl"
+    content: "/content/our_team.yaml"
+    fields:
+      - name: "first_section"
+        label: "First section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "page_title"
+        label: "Page title"
+        description: ""
+        datatype: "text"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Faqs"
+    name: "faqs"
+    sort: 140
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/faqs.tpl"
+    content: "/content/faqs.yaml"
+    fields:
+      - name: "page_title"
+        label: "Page title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "first_section"
+        label: "First section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "second_section"
+        label: "Second section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Reviews"
+    name: "reviews"
+    sort: 147
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/reviews.tpl"
+    content: "/content/reviews.yaml"
+    fields:
+      - name: "page_title"
+        label: "Page title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "first_section"
+        label: "First section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "second_section"
+        label: "Second section"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Contact number"
+    name: "contact_number"
+    sort: 151
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/contact_number.yaml"
+    fields:
+      - name: "number"
+        label: "Number"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Review cards"
+    name: "review_cards"
+    sort: 152
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/review_cards.yaml"
+    fields:
+      - name: "customer_name"
+        label: "Customer name"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "customer_review"
+        label: "Customer review"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "customer_profile"
+        label: "Customer profile"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "review_count"
+        label: "Review count"
+        description: ""
+        datatype: "number"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Partners"
+    name: "partners"
+    sort: 153
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/partners.yaml"
+    fields:
+      - name: "image"
+        label: "Image"
+        description: ""
+        datatype: "images"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+  - description: ""
+    label: "Multi services"
+    name: "multi_services"
+    sort: 160
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: "services"
+    view: "/views/multi_services.tpl"
+    content: "/content/multi_services.yaml"
+    fields:
+      - name: "card_title"
+        label: "Card title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "card_cta_button"
+        label: "Card cta button"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "card_icon_name"
+        label: "Card icon name"
+        description: ""
+        datatype: "text"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "card_description2"
+        label: "Card description2"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Articles"
+    name: "articles"
+    sort: 165
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: "blog"
+    view: "/views/articles.tpl"
+    content: "/content/articles.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "card_description"
+        label: "Card description"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "author"
+        label: "Author"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "date_created"
+        label: "Date created"
+        description: ""
+        datatype: "date"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "card_cta"
+        label: "Card cta"
+        description: ""
+        datatype: "text"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "image"
+        label: "Image"
+        description: ""
+        datatype: "images"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "tag"
+        label: "Tag"
+        description: ""
+        datatype: "text"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Footer services"
+    name: "footer_services"
+    sort: 169
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/footer_services.yaml"
+    fields:
+      - name: "label"
+        label: "Label"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Footer quick links"
+    name: "footer_quick_links"
+    sort: 170
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/footer_quick_links.yaml"
+    fields:
+      - name: "label"
+        label: "Label"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Footer contact info"
+    name: "footer_contact_info"
+    sort: 171
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/footer_contact_info.yaml"
+    fields:
+      - name: "label"
+        label: "label"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "order"
+        label: "Order"
+        description: ""
+        datatype: "sort"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "contact_icon"
+        label: "Contact icon"
+        description: ""
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Roofing packages"
+    name: "roofing_packages"
+    sort: 193
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/roofing_packages.yaml"
+    fields:
+      - name: "package_type"
+        label: "Package type"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "price"
+        label: "Price"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "recommended"
+        label: "recommended"
+        description: ""
+        datatype: "yes_no"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+  - description: ""
+    label: "Team"
+    name: "team"
+    sort: 198
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/team.yaml"
+    fields:
+      - name: "full_name"
+        label: "Full name"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "position"
+        label: "Position"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "order"
+        label: "Order"
+        description: ""
+        datatype: "sort"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "fb_link"
+        label: "fb link"
+        description: ""
+        datatype: "link"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "ig_link"
+        label: "ig link"
+        description: ""
+        datatype: "link"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "tw_link"
+        label: "tw link"
+        description: ""
+        datatype: "link"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "yt_link"
+        label: "yt link"
+        description: ""
+        datatype: "link"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "li_link"
+        label: "li link"
+        description: ""
+        datatype: "link"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "profile_image"
+        label: "Profile image"
+        description: ""
+        datatype: "images"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+  - description: ""
+    label: "Multi projects"
+    name: "multi_projects"
+    sort: 204
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/multi_projects.tpl"
+    content: "/content/multi_projects.yaml"
+    fields:
+      - name: "image"
+        label: "Image"
+        description: ""
+        datatype: "images"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          limit: ""
+          list: true
+      - name: "date_created"
+        label: "Date created"
+        description: ""
+        datatype: "date"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "project_title"
+        label: "Project title"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Project tags"
+    name: "project_tags"
+    sort: 205
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/project_tags.yaml"
+    fields:
+      - name: "title"
+        label: "title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Faqs accordion"
+    name: "faqs_accordion"
+    sort: 216
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/faqs_accordion.yaml"
+    fields:
+      - name: "question"
+        label: "Question"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "answer"
+        label: "Answer"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "collapse_id"
+        label: "Collapse id"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "collapse_heading"
+        label: "Collapse heading"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "CTAs"
+    name: "ctas"
+    sort: 227
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/ctas.yaml"
+    fields:
+      - name: "button_label"
+        label: "Button label"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "link"
+        label: "Link"
+        description: ""
+        datatype: "internal_link"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true

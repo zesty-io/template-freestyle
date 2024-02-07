@@ -1,0 +1,23 @@
+
+  - id: "89a0-c433-fc8d"
+    web:
+      metaDescription: ""
+      metaTitle: "Contact"
+      metaLinkText: "Contact"
+      metaKeywords: null
+      pathPart: "contact"
+      path: "/contact/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 114
+      listed: true
+    data:
+      contact_france: "<h5 class=\"element-title text-uppercase fw-bold\">France</h5>\n<div class=\"contact-address\">\n<p>13 Rue Montmartre 75001, Paris, France</p>\n</div>\n<div class=\"contact-number\">\n<p><a style=\"text-decoration: none;\" href=\"#\">+123 987 321 ,</a> <a style=\"text-decoration: none;\" href=\"#\">+123 123 654</a></p>\n</div>\n<div class=\"email-address\">\n<p><a style=\"text-decoration: none;\" href=\"#\">Roofers@templatesjungle.com</a></p>\n</div>"
+      contact_info: "<div class=\"contact-info col-md-12\">\n<h2 class=\"fs-3 text-uppercase fw-bold mb-4\">Contact information</h2>\n<p>Tortor dignissim convallis aenean et tortor at risus viverra adipiscing.</p>\n<div class=\"page-content\">\n<div class=\"col-md-12\">\n<div class=\"content-box my-5\">\n<h5 class=\"element-title text-uppercase fw-bold \">Head Office</h5>\n<div class=\"contact-address\">\n<p>730 Glenstone Ave 65802, Springfield, US</p>\n</div>\n<div class=\"contact-number \"><a style=\"text-decoration: none;\" href=\"#\">+123 987 321 ,</a> <a style=\"text-decoration: none;\" href=\"#\">+123 123 654</a></div>\n<div class=\"email-address\">\n<p><a style=\"text-decoration: none;\" href=\"#\">Roofers@templatesjungle.com</a></p>\n</div>\n</div>\n</div>\n<div class=\"col-md-12\">\n<div class=\"content-box my-5\">\n<h5 class=\"element-title text-uppercase fw-bold \">Branch Office</h5>\n<div class=\"contact-address\">\n<p>730 Glenstone Ave 65802, Springfield, US</p>\n</div>\n<div class=\"contact-number \"><a style=\"text-decoration: none;\" href=\"#\">+123 987 321 ,</a> <a style=\"text-decoration: none;\" href=\"#\">+123 123 654</a></div>\n<div class=\"email-address\">\n<p><a style=\"text-decoration: none;\" href=\"#\">contact@yourcompany.com</a></p>\n</div>\n</div>\n</div>\n<div class=\"col-md-12\">\n<div class=\"content-box my-5\">\n<h5 class=\"element-title text-uppercase fw-bold \">Social info</h5>\n<div class=\"social-links\">\n<ul class=\"list-unstyled d-flex gap-3 mt3 \">\n<li><a href=\"#\" class=\"text-secondary me-3 p-0\"> <iconify-icon icon=\"ri:facebook-fill\" class=\"social-icon \"></iconify-icon> </a></li>\n<li><a href=\"#\" class=\"text-secondary me-3 p-0\"> <iconify-icon icon=\"ri:instagram-line\" class=\"social-icon \"></iconify-icon> </a></li>\n<li><a href=\"#\" class=\"text-secondary me-3 p-0\"> <iconify-icon icon=\"ri:twitter-fill\" class=\"social-icon \"></iconify-icon> </a></li>\n<li><a href=\"#\" class=\"text-secondary me-3 p-0\"> <iconify-icon icon=\"ri:youtube-fill\" class=\"social-icon \"></iconify-icon> </a></li>\n<li><a href=\"#\" class=\"text-secondary me-3 p-0\"> <iconify-icon icon=\"ri:linkedin-fill\" class=\"social-icon \"></iconify-icon> </a></li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>"
+      contact_office2: "<h5 class=\"element-title text-uppercase fw-bold\">Office</h5>\n<div class=\"contact-address\">\n<p>18 Chapel Brow PR25 3NE, Leyland, UK</p>\n</div>\n<div class=\"contact-number\">\n<p><a style=\"text-decoration: none;\" href=\"#\">+123 987 321 ,</a> <a style=\"text-decoration: none;\" href=\"#\">+123 123 654</a></p>\n</div>\n<div class=\"email-address\">\n<p><a style=\"text-decoration: none;\" href=\"#\">Roofers@templatesjungle.com</a></p>\n</div>"
+      contact_usa: "<h5 class=\"element-title text-uppercase fw-bold\">USA</h5>\n<div class=\"contact-address\">\n<p>730 Glenstone Ave 65802, Springfield, US</p>\n</div>\n<div class=\"contact-number\">\n<p><a style=\"text-decoration: none;\" href=\"#\">+123 987 321 ,</a> <a style=\"text-decoration: none;\" href=\"#\">+123 123 654</a></p>\n</div>\n<div class=\"email-address\">\n<p><a style=\"text-decoration: none;\" href=\"#\">Roofers@templatesjungle.com</a></p>\n</div>"
+      page_title: "CONTACT US"

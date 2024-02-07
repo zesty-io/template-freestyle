@@ -1,0 +1,40 @@
+<div className={styles.pvlRoot}>
+	<div style="display:flex" className="{styles.pvlRow}"  class="services-banner banner">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container pt-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="row py-5 mt-5">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="d-flex flex-wrap flex-column justify-content-center align-items-center my-5 py-5 text-white">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<h2  class="text-white fw-bold display-2 mt-5 z-3 sticky-top">{{this.page_title}}</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class="my-5 pt-5">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container pt-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div class="pvlRichtext">{{this.first_section}}</div>
+					{{include /freestyle/components/services-card.html}}
+				</div>
+			</div>
+		</div>
+	</div>
+	{{include /freestyle/components/our-trusted-partners.html}}
+	<div style="display:flex" className="{styles.pvlRow}"  class="testimonial-banner position-relative py-5">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container py-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div class="pvlRichtext">{{this.second_section}}</div>
+					{{include /freestyle/components/review-card-v2.html}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,91 @@
+
+  - id: "8cf5-c438-e690"
+    web:
+      metaDescription: ""
+      metaTitle: "Contact us"
+      metaLinkText: "Contact us"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 181
+      listed: true
+    data:
+      label: "Contact us"
+  - id: "69f6-0f50-3c8e"
+    web:
+      metaDescription: ""
+      metaTitle: "Privacy Policy"
+      metaLinkText: "Privacy Policy"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 180
+      listed: true
+    data:
+      label: "Privacy Policy"
+  - id: "fde0-d5fa-ec1d"
+    web:
+      metaDescription: ""
+      metaTitle: "Our gallery"
+      metaLinkText: "Our gallery"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 179
+      listed: true
+    data:
+      label: "Our gallery"
+  - id: "6ee4-8216-9d47"
+    web:
+      metaDescription: ""
+      metaTitle: "About us"
+      metaLinkText: "About us"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 178
+      listed: true
+    data:
+      label: "About us"
+  - id: "0456-2d41-cbee"
+    web:
+      metaDescription: ""
+      metaTitle: "Our locations"
+      metaLinkText: "Our locations"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 177
+      listed: true
+    data:
+      label: "Our locations"

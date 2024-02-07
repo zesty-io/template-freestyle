@@ -1,0 +1,61 @@
+
+  - id: "d6ed-5850-b3ef"
+    web:
+      metaDescription: ""
+      metaTitle: "(+089) 234-516-6123"
+      metaLinkText: "(+089) 234-516-6123"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 183
+      listed: true
+    data:
+      contact_icon: "ion:call"
+      label: "(+089) 234-516-6123"
+      order: 2
+  - id: "c945-68ef-c476"
+    web:
+      metaDescription: ""
+      metaTitle: "163 Elm Drive, NYC, USA"
+      metaLinkText: "163 Elm Drive, NYC, USA"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 182
+      listed: true
+    data:
+      contact_icon: "ion:location"
+      label: "163 Elm Drive, NYC, USA"
+      order: 1
+  - id: "13c4-74a5-0730"
+    web:
+      metaDescription: ""
+      metaTitle: "info@yourdomain.com"
+      metaLinkText: "info@yourdomain.com"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 184
+      listed: true
+    data:
+      contact_icon: "ion:mail"
+      label: "info@yourdomain.com"
+      order: 3

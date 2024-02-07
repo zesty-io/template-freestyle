@@ -1,0 +1,85 @@
+
+  - id: "ea90-58d1-3f94"
+    web:
+      metaDescription: "\n✓ Quisque rhoncus\n✓ Lorem ipsum dolor\n✓ Vivamus velit mir\n✓ Elit mir ivamus\n\nBook now "
+      metaTitle: "STANDARD"
+      metaLinkText: "STANDARD"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 194
+      listed: true
+    data:
+      description: "<div class=\"price-option\">\n<p><span class=\"price-tick\">✓</span> Quisque rhoncus</p>\n<p><span class=\"price-tick\">✓</span> Lorem ipsum dolor</p>\n<p><span class=\"price-tick\">✓</span> Vivamus velit mir</p>\n<p><span class=\"price-tick\">✓</span> Elit mir ivamus</p>\n</div>"
+      package_type: "STANDARD"
+      price: "$56.95"
+      recommended: 0
+  - id: "f42a-e6f7-5949"
+    web:
+      metaDescription: "\n✓ Quisque rhoncus\n✓ Lorem ipsum dolor\n✓ Vivamus velit mir\n✓ Velit mir\n✓ Elit mir ivamus\n\nBook now "
+      metaTitle: "BASIC"
+      metaLinkText: "BASIC"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 195
+      listed: true
+    data:
+      description: "<div class=\"price-option\">\n<p class=\"text-white\"><span class=\"price-tick text-white\">✓</span> Quisque rhoncus</p>\n<p class=\"text-white\"><span class=\"price-tick text-white\">✓</span> Lorem ipsum dolor</p>\n<p class=\"text-white\"><span class=\"price-tick text-white\">✓</span> Vivamus velit mir</p>\n<p class=\"text-white\"><span class=\"price-tick text-white\">✓</span> Velit mir</p>\n<p class=\"text-white\"><span class=\"price-tick text-white\">✓</span> Elit mir ivamus</p>\n</div>"
+      package_type: "BASIC"
+      price: "$79.50"
+      recommended: 1
+  - id: "27bd-b4a9-36ff"
+    web:
+      metaDescription: "\n✓ Quisque rhoncus\n✓ Lorem ipsum dolor\n✓ Vivamus velit mir\n✓ Elit mir ivamus\n✓ Lorem ipsum dolor\n✓ Ipsum dolor\n\nBook now "
+      metaTitle: "DELUXE"
+      metaLinkText: "DELUXE"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 196
+      listed: true
+    data:
+      description: "<div class=\"price-option\">\n<p><span class=\"price-tick\">✓</span> Quisque rhoncus</p>\n<p><span class=\"price-tick\">✓</span> Lorem ipsum dolor</p>\n<p><span class=\"price-tick\">✓</span> Vivamus velit mir</p>\n<p><span class=\"price-tick\">✓</span> Elit mir ivamus</p>\n<p><span class=\"price-tick\">✓</span> Lorem ipsum dolor</p>\n<p><span class=\"price-tick\">✓</span> Ipsum dolor</p>\n</div>"
+      package_type: "DELUXE"
+      price: "$103.40"
+      recommended: 0
+  - id: "7e4d-8757-b2f4"
+    web:
+      metaDescription: "\n✓ Quisque rhoncus\n✓ Lorem ipsum dolor\n✓ Vivamus velit mir\n✓ It ir ivamus\n✓ Elit mir ivamus\n✓ Quisque rhoncus\n✓ lit mir iamus\n\nBook now "
+      metaTitle: "ULTIMATE"
+      metaLinkText: "ULTIMATE"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 197
+      listed: true
+    data:
+      description: "<div class=\"price-option\">\n<p><span class=\"price-tick\">✓</span> Quisque rhoncus</p>\n<p><span class=\"price-tick\">✓</span> Lorem ipsum dolor</p>\n<p><span class=\"price-tick\">✓</span> Vivamus velit mir</p>\n<p><span class=\"price-tick\">✓</span> It ir ivamus</p>\n<p><span class=\"price-tick\">✓</span> Elit mir ivamus</p>\n<p><span class=\"price-tick\">✓</span> Quisque rhoncus</p>\n<p><span class=\"price-tick\">✓</span> lit mir iamus</p>\n</div>"
+      package_type: "ULTIMATE"
+      price: "$190.50"
+      recommended: 0

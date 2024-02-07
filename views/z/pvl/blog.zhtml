@@ -1,0 +1,10 @@
+<div className={styles.pvlRoot}>
+	<div style="display:flex" className="{styles.pvlRow}"  class="blog-banner">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class="container pt-5">
+				<div style="flex:1" className={styles.pvlColumn}>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

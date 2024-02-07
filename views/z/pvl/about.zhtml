@@ -1,0 +1,37 @@
+<div className={styles.pvlRoot}>
+	{{include /freestyle/components/header.html}}
+	<div style="display:flex" className="{styles.pvlRow}"  class="about-banner">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class=" container pt-5 ">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class="row py-5 mt-5 ">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="d-flex flex-wrap flex-column justify-content-center align-items-center my-5 py-5 text-white ">
+								<div style="flex:1" className={styles.pvlColumn}>
+									<h2  class=" text-white fw-bold display-2 mt-5 ">{{this.page_title}}</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:flex" className="{styles.pvlRow}"  class=" mt-5 pt-5 ">
+		<div style="flex:1" className={styles.pvlColumn}>
+			<div style="display:flex" className="{styles.pvlRow}"  class=" vertical-element ">
+				<div style="flex:1" className={styles.pvlColumn}>
+					<div style="display:flex" className="{styles.pvlRow}"  class=" container ">
+						<div style="flex:1" className={styles.pvlColumn}>
+							<div style="display:flex" className="{styles.pvlRow}"  class="row d-flex align-items-center ">
+								<div style="flex:1" className={styles.pvlColumn}>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{{include /freestyle/components/our-trusted-partners.html}}
+</div>

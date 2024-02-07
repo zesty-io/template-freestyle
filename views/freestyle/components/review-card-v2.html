@@ -1,0 +1,28 @@
+ <div class="row ">
+           {{each review_cards as rc}}
+                <div class=" mt-5 col-md-4">
+                    <div class="reviews-components p-5">
+                        <iconify-icon icon="gridicons:quote" class="quote my-2"></iconify-icon>
+                        <p>“{{rc.customer_review}}”</p>
+                        <div class="row mt-4">
+                            <div class="col-md-3">
+                                <img src="{{rc.customer_profile.getUrl()}}" alt="image" class="img-fluid">
+                            </div>
+                            {{rc.customer_profile.getUrl()}}
+                            <div class="col-md-9">
+                                <h5>{{rc.customer_name}}</h5>
+                                <div class="d-flex">
+                                    <iconify-icon icon="ion:star" class="rate pe-1"></iconify-icon>
+                                    <iconify-icon icon="ion:star" class="rate pe-1"></iconify-icon>
+                                    <iconify-icon icon="ion:star" class="rate pe-1"></iconify-icon>
+                                    <iconify-icon icon="ion:star" class="rate pe-1"></iconify-icon>
+                                    <iconify-icon icon="ion:star" class="rate pe-1"></iconify-icon>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+                
+</div>

@@ -1,0 +1,20 @@
+
+  - id: "4d73-a877-a2a8"
+    web:
+      metaDescription: ""
+      metaTitle: "Our Team"
+      metaLinkText: "Our Team"
+      metaKeywords: null
+      pathPart: "our-team"
+      path: "/our-team/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 139
+      listed: true
+    data:
+      first_section: "<h6 class=\" text-center \">Meet our team</h6>\n<h2 class=\"fw-bold display-4 mb-5 text-center\">Our Team Members</h2>"
+      page_title: "OUR TEAM"

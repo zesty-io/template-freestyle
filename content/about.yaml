@@ -1,0 +1,28 @@
+
+  - id: "4c55-169d-9ba0"
+    web:
+      metaDescription: ""
+      metaTitle: "About"
+      metaLinkText: "About"
+      metaKeywords: null
+      pathPart: "about"
+      path: "/about/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 103
+      listed: true
+    data:
+      first_section_body: "At Acme Global Shipping Solutions, we're more than just a logistics company; we are your partners in connecting the world. With a rich history dating back to 2012, our journey has been one of relentless commitment to excellence in international shipping and logistics."
+      first_section_header: "WHO ARE WE?"
+      page_title: "ABOUT US"
+      second_section_body: "Since our inception in 2012, we've embarked on a transformative journey that has reshaped the way the world connects. It all began with a vision to transcend borders, to simplify the complexities of global commerce, and to bring people and products together seamlessly, regardless of where they are on the globe.\n\nOver the years, we've not just met but exceeded the expectations of our clients, forging enduring relationships with businesses of all sizes. Our relentless commitment to excellence has been the driving force behind our growth, allowing us to evolve from a regional service provider to a global shipping powerhouse."
+      second_section_header: "Our Journey of Excellence"
+      section_image_1: "https://x0cgdmw9.media.zestyio.com/pexels-tima-miroshnichenko-6170398.SyFjsldzT.jpg"
+      section_image_2: "https://x0cgdmw9.media.zestyio.com/pexels-tima-miroshnichenko-6169659.jpg"
+      third_section_cta: "GET IN TOUCH"
+      third_section_header: "EXPLORE OUR GLOBAL SHIPPING SOLUTIONS"
+      third_section_subheader: "GET STARTED NOW"

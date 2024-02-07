@@ -1,0 +1,121 @@
+
+  - id: "f78e-3818-34cb"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: "Services"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 125
+      listed: true
+    data:
+      navigation_label: "Services"
+      navigation_link: "873a-65b7-2448"
+      order: 2
+  - id: "d4a4-4c0a-643c"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: "About"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 126
+      listed: true
+    data:
+      navigation_label: "About"
+      navigation_link: "4c55-169d-9ba0"
+      order: 3
+  - id: "f7c2-8124-9fb5"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: "Projects"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 127
+      listed: true
+    data:
+      navigation_label: "Projects"
+      navigation_link: "4c8a-a00c-cdf4"
+      order: 4
+  - id: "c198-814d-c8e0"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: "Blog"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 128
+      listed: true
+    data:
+      navigation_label: "Blog"
+      navigation_link: "202a-7767-568d"
+      order: 5
+  - id: "b021-c853-1623"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: "Contact"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 129
+      listed: true
+    data:
+      navigation_label: "Contact"
+      navigation_link: "89a0-c433-fc8d"
+      order: 6
+  - id: "9ed8-1c33-6c55"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: "Home"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 124
+      listed: true
+    data:
+      navigation_label: "Home"
+      navigation_link: "3608-ff31-68ff"
+      order: 1
